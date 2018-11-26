@@ -1,19 +1,46 @@
-/**
- * Diese Klasse dient zum testen von GitHub's Pullrequests
- * 
- * @author Stefan Basaric
- *
- */
+import testPackage.Calc;
+import testPackage.CalcInterface2;
+import testPackage.SubCalc;
+
 public class HalloWelt {
 
-	/**
-	 * In dieser Methode wird das Java-Projekt gestartet und sie gibt "Hallo Welt"
-	 * in der Konsole aus.
-	 * 
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		System.out.println("Guten Abend Ammanakeudumm!");
+		Calc calc = new Calc();
+		calc.addition(2, 2);
+		calc.esGehtImmerNoch();
+		
+		SubCalc calc2 = new SubCalc();
+		calc2.esGehtImmerNoch();
+		calc2.esGehtImmerNoch();
+		
+		CalcInterface2 inter2 = new Calc();
+		inter2.esGehtImmerNoch();
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
