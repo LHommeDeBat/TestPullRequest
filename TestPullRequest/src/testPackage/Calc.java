@@ -18,6 +18,16 @@ public class Calc extends SuperCalc implements CalcInterface {
 		
 	}
 	
+	public class Calc2 implements CalcInterface3 {
+
+		@Override
+		public void esGehtImmerNoch() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
 }
 
 
