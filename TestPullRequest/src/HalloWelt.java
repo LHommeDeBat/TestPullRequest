@@ -6,7 +6,7 @@ public class HalloWelt {
 
 	public static void main(String[] args) {
 		Calc calc = new Calc();
-		calc.addition(2, 2);
+		calc.addition(2, 2, 2);
 		calc.esGehtImmerNoch();
 		
 		SubCalc calc2 = new SubCalc();

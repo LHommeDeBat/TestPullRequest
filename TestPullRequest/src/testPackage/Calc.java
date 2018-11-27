@@ -2,7 +2,7 @@ package testPackage;
 
 public class Calc extends SuperCalc implements CalcInterface {
 
-	public Integer addition(int a, int b) {
+	public Integer addition(int a, int b, int c) {
 		return a - b;
 	}
 
