@@ -6,7 +6,7 @@ public class SubCalc extends Calc {
 		return a - b;
 	}
 	
-	public void esGehtImmerNoch() {
+	public void testEclipse() {
 		// TODO Auto-generated method stub
 		
 	}

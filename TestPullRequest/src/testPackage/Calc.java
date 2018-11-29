@@ -13,7 +13,7 @@ public class Calc extends SuperCalc implements CalcInterface {
 	}
 
 	@Override
-	public void esGehtImmerNoch() {
+	public void testEclipse() {
 		// TODO Auto-generated method stub
 		
 	}
@@ -21,7 +21,7 @@ public class Calc extends SuperCalc implements CalcInterface {
 	public class Calc2 implements CalcInterface3 {
 
 		@Override
-		public void esGehtImmerNoch() {
+		public void testEclipse() {
 			// TODO Auto-generated method stub
 			
 		}

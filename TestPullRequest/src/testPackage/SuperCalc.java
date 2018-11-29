@@ -6,7 +6,7 @@ public class SuperCalc {
 		return a + b;
 	}
 	
-	public void esGehtImmerNoch() {
+	public void testEclipse() {
 		// TODO Auto-generated method stub		
 	}
 	

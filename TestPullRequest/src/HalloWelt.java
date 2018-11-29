@@ -7,14 +7,14 @@ public class HalloWelt {
 	public static void main(String[] args) {
 		Calc calc = new Calc();
 		calc.addition(2, 2, 2);
-		calc.esGehtImmerNoch();
+		calc.testEclipse();
 		
 		SubCalc calc2 = new SubCalc();
-		calc2.esGehtImmerNoch();
-		calc2.esGehtImmerNoch();
+		calc2.testEclipse();
+		calc2.testEclipse();
 		
 		CalcInterface2 inter2 = new Calc();
-		inter2.esGehtImmerNoch();
+		inter2.testEclipse();
 	}
 
 }

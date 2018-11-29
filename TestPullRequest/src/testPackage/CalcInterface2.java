@@ -2,7 +2,7 @@ package testPackage;
 
 public interface CalcInterface2 extends CalcInterface3 {
 
-	public void esGehtImmerNoch();
+	public void testEclipse();
 	
 }
 
