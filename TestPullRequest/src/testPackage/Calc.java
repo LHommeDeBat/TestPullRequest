@@ -1,6 +1,8 @@
 package testPackage;
 
 public class Calc extends SuperCalc implements CalcInterface {
+	
+	public final static int MULTIPLIER = 10;
 
 	public Integer addition(int a, int b, int c) {
 		return a - b;
