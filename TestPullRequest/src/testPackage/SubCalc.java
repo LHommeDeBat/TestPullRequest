@@ -3,7 +3,7 @@ package testPackage;
 public class SubCalc extends Calc {
 	
 	public Integer addition(int a, int b, int c) {
-		return a - b;
+		return a - b + c;
 	}
 	
 	public Integer subtract(int a, int b) {
