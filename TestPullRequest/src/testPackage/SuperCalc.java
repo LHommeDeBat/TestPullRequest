@@ -6,6 +6,10 @@ public class SuperCalc {
 		return a + b;
 	}
 	
+	public Integer subtraction(int a, int b, int c) {
+		return a - b;
+	}
+	
 	public void testEclipse() {
 		// TODO Auto-generated method stub		
 	}
