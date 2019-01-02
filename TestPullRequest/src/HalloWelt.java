@@ -12,6 +12,7 @@ public class HalloWelt {
 		SubCalc calc2 = new SubCalc();
 		calc2.testEclipse();
 		calc2.testEclipse();
+		calc2.subtraction(3, 2, 1);
 		
 		CalcInterface2 inter2 = new Calc();
 		inter2.testEclipse();
