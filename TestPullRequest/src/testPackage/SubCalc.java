@@ -10,6 +10,10 @@ public class SubCalc extends Calc {
 		return a - b;
 	}
 	
+	public Integer multiplication(int a, int b, int c) {
+		return a * b;
+	}
+	
 	public void testEclipse() {
 		// TODO Auto-generated method stub
 		
