@@ -11,6 +11,10 @@ public class Calc extends SuperCalc implements CalcInterface {
 	public Integer subtraction(int a, int b, int c) {
 		return a - b;
 	}
+	
+	public Integer subtraction(int a, int b) {
+		return a - b;
+	}
 
 	@Override
 	public void testInterface2() {
