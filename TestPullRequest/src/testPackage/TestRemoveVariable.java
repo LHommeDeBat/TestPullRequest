@@ -18,6 +18,7 @@ public class TestRemoveVariable {
 		int b = 4;
 		int c = a + b;
 		this.b = b;
+		a = a + 3;
 	}
 
 }
