@@ -7,7 +7,7 @@ public class TestRemoveVariable {
 	private int c = this.a;
 
 	public int getA() {
-		return a;
+		return this.a;
 	}
 
 	public void setA(int a) {
