@@ -2,6 +2,7 @@ package testPackage;
 
 public class TestRemoveVariable {
 
+	// Useless comment
 	private int a;
 	private int b;
 	private int c = this.a;
