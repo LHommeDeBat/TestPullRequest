@@ -4,6 +4,7 @@ public class TestRemoveVariable {
 
 	private int a;
 	private int b;
+	private int c = this.a;
 
 	public int getA() {
 		return a;
@@ -20,6 +21,10 @@ public class TestRemoveVariable {
 		this.b = b;
 		int d = a + this.b;
 		a = a + 3;
+	}
+	
+	public void doOtherStuff() {
+		int k = a;
 	}
 
 }
