@@ -17,11 +17,16 @@ public class FieldAccessExprExample {
 	}
 	
 	public void test() {
+	
 		
 		for (int i = 0; i < 3; i++) {
-			a = 2;
+			int a = 4;
 			this.a = 3;
+			a = 4;
 		}
+		
+		int a = 0;
+		a = 4;
 		
 	}
 }
