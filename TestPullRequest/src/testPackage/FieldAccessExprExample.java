@@ -15,4 +15,13 @@ public class FieldAccessExprExample {
 	public int getThisA() {
 		return this.a;
 	}
+	
+	public void test() {
+		
+		for (int i = 0; i < 3; i++) {
+			a = 2;
+			this.a = 3;
+		}
+		
+	}
 }
