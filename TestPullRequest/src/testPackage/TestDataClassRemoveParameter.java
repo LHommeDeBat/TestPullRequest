@@ -19,10 +19,6 @@ public class TestDataClassRemoveParameter {
 		getLineOfMethodWithUnusedParameter(1, 2, 3);
 		return 22;
 	}
-	
-	public int testSomestuff() {
-		return 3;
-	}
 
 	/**
 	 * Method with unused parameter which calls another method with same parameter
