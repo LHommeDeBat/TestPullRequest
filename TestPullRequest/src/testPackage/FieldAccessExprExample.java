@@ -25,6 +25,12 @@ public class FieldAccessExprExample {
 			a = 4;
 		}
 		
+		try {
+			int a = 0;
+		} catch (Exception e) {
+			int a = 4;
+		}
+		
 		int a = 0;
 		a = 4;
 		

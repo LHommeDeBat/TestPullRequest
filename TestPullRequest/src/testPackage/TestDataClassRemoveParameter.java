@@ -15,13 +15,13 @@ public class TestDataClassRemoveParameter {
 		return result;
 	}
 
-	public int getLineNumberOfDummyMethod(int a, int b, int c) {
-		return 18;
-	}
-
 	public int getLineNumberOfCaller() {
 		getLineOfMethodWithUnusedParameter(1, 2, 3);
 		return 22;
+	}
+	
+	public int testSomestuff() {
+		return 3;
 	}
 
 	/**
